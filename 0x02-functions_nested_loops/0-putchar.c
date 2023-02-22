@@ -5,7 +5,7 @@
  * Return: Always 0
  */
 
-init main(void)
+int main(void)
 {
 
 	_putchar('_');
