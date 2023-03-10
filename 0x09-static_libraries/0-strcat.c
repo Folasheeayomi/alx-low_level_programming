@@ -4,6 +4,13 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _strcat - Concatenates the destination string and the source string
+ * @dest: Destination string
+ * @src: Source string
+ * Return: String value.
+ */
+
 char *_strcat(char *dest, char *src)
 {
 return (strcat(dest, src));

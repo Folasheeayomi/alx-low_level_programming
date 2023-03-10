@@ -4,6 +4,13 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _strcmp - Compares two strings character by character
+ * @s1: The first string character
+ * @s2: The second string character
+ * Return: Nothing.
+ */
+
 int _strcmp(char *s1, char *s2)
 {
 return (strcmp(s1, s2));
